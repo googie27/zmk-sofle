@@ -96,7 +96,7 @@ layers:
   - '~'
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
