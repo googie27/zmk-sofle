@@ -67,11 +67,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3            &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp SLASH        &kp ASTERISK     &kp F9      &kp F10    &kp EQUAL
-&trans      &kp GRAVE        &bt BT_CLR_ALL  &bt BT_CLR        &bt BT_SEL 0     &mkp MB4           &mmv MOVE_DOWN   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS    &kp MINUS  &kp EQUAL
-&trans      &kp TILDE        &bt BT_SEL 1    &bt BT_SEL 2      &bt BT_SEL 3     &mkp MB5           &mmv MOVE_LEFT   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS    &trans     &trans
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RET     &kp F12    &trans
-&kp C_MUTE  &trans           &kp LEFT_BRACE  &kp LEFT_BRACKET  &trans           &trans             &mkp LCLK        &trans           &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp PERIOD  &kp RET
+&kp GRAVE        &kp F1           &kp F2          &kp F3            &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp SLASH        &kp ASTERISK     &kp F9      &kp F10    &kp EQUAL
+&trans           &kp GRAVE        &bt BT_CLR_ALL  &bt BT_CLR        &bt BT_SEL 0     &mkp MB4           &mmv MOVE_DOWN   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS    &kp MINUS  &kp EQUAL
+&trans           &kp TILDE        &bt BT_SEL 1    &bt BT_SEL 2      &bt BT_SEL 3     &mkp MB5           &mmv MOVE_LEFT   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS    &trans     &trans
+&rgb_ug RGB_TOG  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RET     &kp F12    &trans
+&kp C_MUTE       &trans           &kp LEFT_BRACE  &kp LEFT_BRACKET  &trans           &trans             &mkp LCLK        &trans           &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp PERIOD  &kp RET
             >;
 
             display-name = "layer1";
